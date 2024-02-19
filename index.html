@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Second Project</title>
+    <link rel = "stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <main >
+        <div class="wrap">
+            <section class="heading">
+                <p class="title">Todo-Manager-Task</p>
+                <p class="subtitle">Manage and search your pending tasks in Clicks!</p>
+            </section>
+
+            <section class="task-manager">
+                <div class="search-box">
+                    <form  class="search">
+                        <input type="text" name="task" placeholder="search task" autocomplete="off">
+                        
+                    </form>
+                </div>
+                <div class="task-box">
+                    <ul class="task">
+                        <li>
+                            <span>VD Recording</span>
+                            <button class="Clear">Clear</button>
+                        </li>
+                        <li>
+                            <span>Editing</span>
+                            <button class="Clear">Clear</button>
+                        </li>
+                        <li>
+                            <span>AD Recording</span>
+                            <button class="Clear">Clear </button>
+                        </li>
+                    </ul>
+                    
+                    <form class="add">
+                        <input type="text" name="task" placeholder="add task" autocomplete="off">
+                        <input type="submit" value="Add">
+                    </form>
+                </div>
+                <div class="message-box">
+                    <span> </span>
+                    <button class="Clearall">Clear All</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

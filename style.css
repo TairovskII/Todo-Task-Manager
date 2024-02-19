@@ -1,0 +1,145 @@
+:root {
+    --box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+/* Resetting default margin and padding */
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(6, 178, 190); /* Background color */
+    color: #333;
+    line-height: 1.6;
+  }
+  
+ 
+  .wrap {
+    max-width: 800px;
+    margin: 140px;
+    padding: 35px;
+    background-color: #fff; /* Container background color */
+    border-radius: 8px; /* Adding rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  }
+  .hide {
+    display: none !important;
+  }
+  /* Styles for the heading section */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Styles for the task manager section */
+  .task-manager {
+    margin-top: 20px;
+  }
+  
+  .search-box {
+    margin-bottom: 5px;
+    padding: 4px;
+  }
+  
+  .search {
+    position: center;
+  }
+  
+  input[type="text"][name="task"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="text"][name="task"]:focus {
+    outline: none;
+    border-color: #6dabe4;
+  }
+  
+  .bi {
+    vertical-align: middle;
+  }
+  
+  .task {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 8px;
+    background-color: #f9f9f9; /* Task item background color */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task li:hover {
+    background-color: #f0f0f0; /* Hover color */
+  }
+  
+  .delete {
+    cursor: pointer;
+  }
+  
+  .add {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add input[type="text"][name="task"] {
+    width: calc(100% - 70px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add input[type="submit"] {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .add input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  p{
+    text-align: center;
+  }
+  .message-box {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for the Clear All button */
+  .Clear, .Clearall {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .Clear:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Styles for
+  
